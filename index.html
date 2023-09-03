@@ -12,12 +12,37 @@ body {background-color:#000000;background-repeat:no-repeat;background-position:t
 h1{text-align:center;font-family:Cursive;color:#9c14ad;background-color:#000000;}
 h6{text-align:center;font-family:Verdana, sans-serif;color:#ffffff;background-color:#000000;}
 p {font-family:Georgia, serif;font-size:14px;font-style:normal;font-weight:normal;color:#fcfcfc;background-color:#000000;}
+ body {
+      text-align: center;
+      font-family: Arial;
+    }
+.server-links {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 50px;
+    }
+.server-links a {
+      padding: 10px 20px;
+      background-color: #f1f1f1;
+      color: #333;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+.server-links a:hover {
+      background-color: #ddd;
+    }
 </style>
 </head>
 <body>
 <h1>Skool | VPN</h1>
 <hr>
 <p>Disclaimer: Anybody who is in WCPSS cannot connect to the VPN due to ONC files blocked, we are truly sorry</p>
+<br>
+<!-- VPN ONC link -->
+  <div class="server-links">
+    <a href="skoolVPN.onc">Server 1</a>
 <br>
 <p>•Open a new tab and go to chrome://network</p>
 <br>
